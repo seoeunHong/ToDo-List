@@ -4,10 +4,12 @@ function onGeoSuccess(position) {
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${config.API_KEY}&units=metric`;
   fetch(url).then((response) =>
     response.json().then((data) => {
-      const weather = document.querySelector("#weather span:first-child");
+      document.querySelector("#weather span:first-child").innerText = "It is";
+      document.querySelector("#weather span:nth-child(3)").innerText = "in";
+      const weather = document.querySelector("#weather span:nth-child(2)");
       const city = document.querySelector("#weather span:last-child");
-      city.innerText = data.name;
       weather.innerText = data.weather[0].main;
+      city.innerText = data.name;
     })
   );
 }

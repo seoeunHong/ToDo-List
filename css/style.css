@@ -1,3 +1,95 @@
+body {
+  font-family: Brush Script MT, Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hidden {
   display: none;
+}
+
+#weather {
+  font-size: 200%;
+  color: white;
+  position: absolute;
+  right: 50px;
+}
+
+#weather span:nth-child(2),
+#weather span:last-child {
+  color: lightblue;
+}
+
+#clock {
+  position: absolute;
+  top: 6%;
+  left: 32%;
+  color: white;
+  font-size: 800%;
+}
+#login-form input {
+  font-family: Brush Script MT;
+  color: white;
+  font-size: 260%;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 38%;
+  left: 37%;
+}
+
+#login-form input:first-child {
+  width: 20%;
+}
+
+#login-form input:last-child {
+  left: 57%;
+}
+
+#greeting {
+  color: lightblue;
+  font-size: 300%;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+#todo-form input {
+  font-family: Brush Script MT;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 260%;
+  width: 40%;
+  position: absolute;
+  top: 48%;
+  left: 32%;
+  margin-bottom: 20px;
+}
+
+#todo-list {
+  color: white;
+  font-size: 260%;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+}
+
+#todo-list li button {
+  font-family: Brush Script MT;
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 80%;
+  margin-left: 5px;
+}
+
+#quote {
+  color: white;
+  font-size: 180%;
+  position: absolute;
+  bottom: 0%;
+  left: 27%;
+  right: 20%;
+  bottom: 3%;
 }
