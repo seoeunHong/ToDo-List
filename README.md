@@ -1,6 +1,6 @@
 # My ToDo List
 
-[Link to my project](https://seoeunhong.github.io/momentum-app/)
+[Link to my project](https://seoeunhong.github.io/ToDo-List/)
 
 ## description
 
